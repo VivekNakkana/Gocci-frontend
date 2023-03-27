@@ -29,7 +29,7 @@ const Cart = () => {
     }
   };
   const payment = async (token) => {
-    await axios.post("https://gocci-server/pay", {
+    await axios.post("https://gocci-server.onrender.com/pay", {
       amount: totalAmt * 100,
       token: token,
     });

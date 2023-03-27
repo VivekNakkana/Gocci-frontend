@@ -97,9 +97,9 @@ const Login = () => {
         )}
       </div>
       <ToastContainer
-        position="top-left"
+        position="bottom-center"
         autoClose={2000}
-        hideProgressBar={false}
+        hideProgressBar={true}
         newestOnTop={false}
         closeOnClick
         rtl={false}
